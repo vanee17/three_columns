@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/273786/pexels-photo-273786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor{
+    margin: 60px 250px;
+}
+#sec1{
+    background-color:#9999A7;
+    border-radius: 15px 0px 0px 15px;
+}
+#sec2{
+    background-color:#5757FF;
+}
+#sec3{
+    background-color:#1A1AEB;
+    border-radius: 0px 15px 15px 0px;
+}
+.sec{
+    width: 275px ;
+    height: 480px;
+}
+.sec h1{
+    color: rgb(229, 241, 245);
+    font-family: 'Syne Mono', monospace;
+    margin: 10px;
+}
+.sec p{
+    color: rgb(229, 241, 245);
+    margin: 30px 10px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 0.8em;
+    line-height: 22px;
+    width: 240px;
+    height: 100px;
+}
+#sec1 button {
+        text-decoration: none;
+        padding: 5px;
+        font-size: 20px;
+        color:#9999A7;
+        background-color: #ffffff;
+        border-radius: 15px;
+        border: 2px solid #ffffff;
+        margin: 80px 15px 0px 15px;
+        font-family: 'Syne Mono', monospace;
+    }
+#sec1 button:hover{
+        color: #ffffff;
+        background-color: transparent;
+    }
+#sec2 button {
+        text-decoration: none;
+        padding: 5px;
+        font-size: 20px;
+        color:#5757FF;
+        background-color: #ffffff;
+        border-radius: 15px;
+        border: 2px solid #ffffff;
+        margin: 80px 15px 0px 15px;
+        font-family: 'Syne Mono', monospace;
+    }
+    #sec2 button:hover{
+        color: #ffffff;
+        background-color: transparent;
+    }
+#sec3 button {
+        text-decoration: none;
+        padding: 5px;
+        font-size: 20px;
+        color:#1A1AEB;
+        background-color: #ffffff;
+        border-radius: 15px;
+        border: 2px solid #ffffff;
+        margin: 80px 15px 0px 15px;
+        font-family: 'Syne Mono', monospace;
+    }
+#sec3 button:hover{
+        color: #ffffff;
+        background-color: transparent;
+      }
+
+@media (min-width:360px) and (max-width:640px) {
+    body{
+        background-image: url("https://images.pexels.com/photos/4571010/pexels-photo-4571010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contenedor{
+        margin: 60px 50px;
+    }
+    .sec{
+        width: 300px ;
+        height: 480px;
+    }
+    #sec1{
+        border-radius: 0px;
+        }
+    #sec3{
+        border-radius: 0px;
+    }
+}
