@@ -11,6 +11,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/vanee17/three_columns
+- Online site: https://vanee17.github.io/three_columns/
 
 ### My process
 
